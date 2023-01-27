@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PCXR4C" name="SoundProgrammingIntroduction" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="yCjuWw" name="SoundProgrammingIntroduction">
+    <GROUP id="{2947036F-D64C-CF5F-98F2-5839BA394B4E}" name="Source">
+      <GROUP id="{35E0C85E-6B30-98B4-252F-D8CEBDC35632}" name="Synth">
+        <FILE id="JsZsrg" name="AdditiveSynth.cpp" compile="1" resource="0"
+              file="Source/Synth/AdditiveSynth.cpp"/>
+        <FILE id="BVIXjq" name="AdditiveSynth.h" compile="0" resource="0" file="Source/Synth/AdditiveSynth.h"/>
+        <FILE id="ly0HJ9" name="BaseSynth.cpp" compile="1" resource="0" file="Source/Synth/BaseSynth.cpp"/>
+        <FILE id="nDBzp1" name="BaseSynth.h" compile="0" resource="0" file="Source/Synth/BaseSynth.h"/>
+        <FILE id="O9Tc9N" name="SineWave.cpp" compile="1" resource="0" file="Source/Synth/SineWave.cpp"/>
+        <FILE id="f0bTEK" name="SineWave.h" compile="0" resource="0" file="Source/Synth/SineWave.h"/>
+        <FILE id="rfJjK5" name="Synth.cpp" compile="1" resource="0" file="Source/Synth/Synth.cpp"/>
+        <FILE id="MoNjIT" name="Synth.h" compile="0" resource="0" file="Source/Synth/Synth.h"/>
+      </GROUP>
+      <FILE id="vRzjwv" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="wmgO6j" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="BW7zng" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="wmfJPk" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" customXcodeResourceFolders="Resources/wav&#10;">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SoundProgrammingIntroduction"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SoundProgrammingIntroduction"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../modules"/>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
